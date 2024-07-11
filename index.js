@@ -68,6 +68,9 @@ function netSalaryCalculator() {
         return Math.min(nssf, 1080);
     }
     const netSalary = grossSalary - paye - nhif - nssf;
-    netSalaryCalculator()
+    netSalaryCalculator();
+
+    //add Event listers to the buttons
+    
 
     
